@@ -1,13 +1,44 @@
 ---
-title: "About"
+title: "HengHsieh Chang"
 image: profile.jpg
 about:
   template: jolla
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
+      href: https://github.com/Jessica19940828
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jessicachang
+    - icon: envelope
+      text: Email
+      href: mailto:jessica830828@gmail.com
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi, I'm HengHsieh Chang 👋  
+A marketing professional with over six years of experience driving market expansion and revenue growth. Currently, I am expanding my analytical capabilities as a **Master of Business Analytics student at Monash University**.
+
+Previously, as a Brand Manager at Taiwan's largest crowdfunding platform, I led a team to achieve industry-leading sales records and a 300% increase in annual revenue growth for our clients[cite: 19]. My expertise lies in developing bespoke marketing plans that leverage data analytics, SEO/SEM, and compelling copywriting to maximize ROI and foster long-term client loyalty.
+
+I am passionate about using data to uncover insights and tell powerful stories. I am proficient in both Mandarin (Native) and English (Fluent). I am eager to apply my unique blend of marketing strategy and advanced analytics to solve complex business challenges.
+
+
+## Education
+Monash University | Melbourne, Australia  
+Master's in Business Analytics | 2024 - Present  
+
+Taipei Medical University | Taipei, Taiwan  
+Bachelor of Science | 2012 - 2016  
+
+National Taipei University | Taipei, Taiwan  
+Certificate in Law | 2013 - 2017  
+
+## Experience
+Ontoo Company Limited by Shares | Brand Manager | 2021 - 2025  
+EMAG Technology Co., Ltd. | Digital Marketer | 2019 - 2021  
+Taiwan Rakuten Ichiba | Social Media Specialist | 2016 - 2018
+
+
+
+

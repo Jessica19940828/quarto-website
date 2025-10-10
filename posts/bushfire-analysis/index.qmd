@@ -1,0 +1,33 @@
+---
+title: "The Black Summer's Smoking Gun: Quantifying Climate Change's Role in Australian Bushfires"
+author: "HengHsieh Chang"
+date: "2025-09-28"
+categories: [Analysis]
+image: "fire_header.jpg"
+---
+
+### A Nation on Fire
+
+The 2019/20 Australian "Black Summer" was a catastrophe of unprecedented scale. It claimed 34 lives, destroyed nearly 6,000 buildings, and killed an estimated half a billion to 1.5 billion animals. Occurring during Australia's hottest and driest year on record, the fires raised an urgent question: Was this a freak event, or a sign of things to come? This post explores the pivotal study by van Oldenborgh et al. (2021) that sought to answer just that: to what extent did human-induced climate change fuel the fire?
+
+### The Data: Models, Weather, and Fire
+
+To untangle the influence of climate change from natural variability, the researchers used a multi-faceted approach built on robust data sources[cite: 1222].
+
+* **Fire Weather Index (FWI):** This was the core metric, a physically-based index combining temperature, rain, humidity, and wind to measure fire danger[cite: 215]. The FWI has been shown to correlate strongly with the actual area burned in southeastern Australia, making it a reliable proxy for fire risk[cite: 259].
+* **Observational Data:** To calculate the FWI and analyze historical trends, the study relied on the ERA5 atmospheric reanalysis dataset, a comprehensive global record of weather from 1979 onwards[cite: 463].
+* **Climate Models:** A massive ensemble of 11 state-of-the-art climate models was used to simulate two worlds: one with anthropogenic warming and a counter-factual one without it[cite: 151]. This comparison is the foundation of modern attribution science. The models used are detailed in @tbl-models.
+
+```{r}
+#| label: tbl-models
+#| tbl-cap: "A selection of climate model ensembles used in the analysis (van Oldenborgh et al., 2021)."
+
+knitr::kable(
+  data.frame(
+    Name = c("ASF-20C", "CanESM2", "CESM1-CAM5", "CSIRO-MK3-6-0", "EC-Earth", "GFDL-CM3", "HadGEM3-A", "IPSL-CM6A-LR", "MPI-ESM", "weather@home"),
+    Context = c("seasonal hindcasts", "CMIP5", "CMIP5", "CMIP5", "CMIP5", "CMIP5", "attribution", "CMIP6", "CMIP5", "attribution"),
+    Resolution = c("0.71°", "2.8°", "1°", "1.9°", "1.1°", "2.0°", "0.6°", "2.5x1.5°", "1.9°", "1.8°"),
+    Reference = c("Weisheimer et al. (2017)", "Kirchmeier-Young et al. (2017)", "Kay et al. (2015)", "Jeffrey et al. (2013)", "Hazeleger et al. (2010)", "Sun et al. (2018)", "Ciavarella et al. (2018)", "Boucher et al. (2020)", "Maher et al. (2019)", "Guillod et al. (2017)")
+  ),
+  booktabs = TRUE
+)
