@@ -1,115 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to my Data Journey",
-    "section": "",
-    "text": "How Climate Change Fueled Australia’s Black Summer\n\n\n\nData Analysis\n\n\n\n\n\n\n\n\n\nSep 28, 2025\n\n\nHengHsieh Chang\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Heng-Hsieh Chang",
-    "section": "",
-    "text": "Marketing professional with 6+ years of experience driving market expansion and revenue growth across digital and brand management roles. Currently advancing my analytical capabilities as a Master of Business Analytics student at Monash University, I’m passionate about bridging creative strategy with data-driven insights.\nI specialize in developing data-informed marketing strategies that integrate analytics, SEO/SEM optimization, and compelling storytelling to maximize ROI and strengthen client relationships.\nMy passion lies in turning complex datasets into actionable insights and impactful narratives that support strategic decision-making.\n\n\n🔧 What I Bring\nA unique blend of marketing strategy expertise and advanced analytics skills to solve complex business challenges and deliver measurable growth.\n\n\n\n💼 Professional Experience\nBrand Manager | flyingV Crowdfunding Platform\n2021 - 2024\nDigital Marketer | Taiwan Rakuten Ichiba\n2019 - 2021\n\n\n\n🌱 Beyond Work\nI enjoy exploring new cuisines, singing, and playing badminton. I believe creativity thrives where curiosity meets connection — both in data and in life."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog!",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "HengHsieh Chang",
-    "section": "Education",
-    "text": "Education\nMonash University | Melbourne, Australia\nMaster’s in Business Analytics | 2024 - Present\nTaipei Medical University | Taipei, Taiwan\nBachelor of Science | 2012 - 2016\nNational Taipei University | Taipei, Taiwan\nCertificate in Law | 2013 - 2017"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "HengHsieh Chang",
-    "section": "Experience",
-    "text": "Experience\nOntoo Company Limited by Shares | Brand Manager | 2021 - 2025\nEMAG Technology Co., Ltd. | Digital Marketer | 2019 - 2021\nTaiwan Rakuten Ichiba | Social Media Specialist | 2016 - 2018"
-  },
-  {
-    "objectID": "posts/bushfire-analysis/index.html",
-    "href": "posts/bushfire-analysis/index.html",
-    "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "",
-    "text": "In the summer of 2019–2020, Australia faced one of the most devastating bushfires in history — the “Black Summer”. Over 30 lives were lost, thousands of homes were destroyed, and an estimated 1.5 billion animals perished.\nBut was this catastrophic event just bad luck — or a symptom of a warming planet? In this post, we dig into data from a 2021 to uncover how human-driven extreme weather is fueling Australia’s bushfire crisis and what it means for our future."
-  },
-  {
-    "objectID": "posts/bushfire-analysis/index.html#building-a-fire-resilient-future",
-    "href": "posts/bushfire-analysis/index.html#building-a-fire-resilient-future",
-    "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "Building a Fire-Resilient Future",
-    "text": "Building a Fire-Resilient Future\nThe numbers tell a clear story: the “Black Summer” bushfires are a sign of a new, climate-driven reality. Figure Figure 1 shows that extreme fire weather is at least 30% more likely, and heatwaves are twice as common, because of climate change. If global warming reaches 2°C, these fires could become 4 to 8 times more frequent. As van Oldenborgh et al. (2021) warn, we’re likely underestimating the risks. To stay safe, Australia needs stronger firefighting resources, smarter urban planning, and bold climate policies. You can help by supporting local fire prevention efforts or advocating for climate action in your community."
-  },
-  {
-    "objectID": "posts/bushfire-analysis/index.html#references",
-    "href": "posts/bushfire-analysis/index.html#references",
-    "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "References",
-    "text": "References\nvan Oldenborgh, G. J., Krikken, F., Lewis, S., et al. (2021). Attribution of the Australian bushfire risk to anthropogenic climate change. Natural Hazards and Earth System Sciences, 21, 941–962. https://doi.org/10.5194/nhess-21-941-2021"
-  },
-  {
-    "objectID": "posts/bushfire-analysis/index.html#a-nation-on-fire",
-    "href": "posts/bushfire-analysis/index.html#a-nation-on-fire",
-    "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "",
-    "text": "In the summer of 2019–2020, Australia faced one of the most devastating bushfires in history — the “Black Summer”. Over 30 lives were lost, thousands of homes were destroyed, and an estimated 1.5 billion animals perished.\nBut was this catastrophic event just bad luck — or a symptom of a warming planet? In this post, we dig into data from a 2021 to uncover how human-driven extreme weather is fueling Australia’s bushfire crisis and what it means for our future."
-  },
-  {
-    "objectID": "posts/bushfire-analysis/index.html#the-data-behind-the-flames",
-    "href": "posts/bushfire-analysis/index.html#the-data-behind-the-flames",
-    "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "The Data Behind the Flames",
-    "text": "The Data Behind the Flames\nThe study by van Oldenborgh et al. (2021) , published in Natural Hazards and Earth System Sciences. It uses long-term climate observations dating back to 1900, modern atmospheric data (ERA5), and 11 global climate models to measure how climate change has increased the risk of extreme bushfires in southeastern Australia.\nThey used two main indicators of bushfire danger:\n\n\n\nTable 1\n\n\n\n\n\n\n\n\n\n\nMetric\nDescription\nData Source\n\n\n\n\nFire Weather Index (FWI)\nCombines temperature, humidity, wind, and rainfall to estimate fire danger.\nERA5 reanalysis (1979–2020)\n\n\nMonthly Severity Rating (MSR)\nMeasures how long and severe a fire event lasts.\nAustralian Bureau of Meteorology\n\n\n\n\n\n\nTable 1 shows key fire risk metrics used in the study.\nUsing these metrics, the authors estimated how the probability of extreme fire weather has changed in a warming world. Their models compared the actual climate to a hypothetical world without human-caused emissions."
-  },
-  {
-    "objectID": "posts/bushfire-analysis/index.html#what-they-found",
-    "href": "posts/bushfire-analysis/index.html#what-they-found",
-    "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "What They Found",
-    "text": "What They Found\n\nFire Weather Is 30% More Likely\nThe study found that climate change has made extreme fire weather events at least 30% more frequent. For a 2 °C warmer world, that frequency could rise 4 – 8 times higher.\n\n\n\n\n\n\n\n\n\nFigure 1: Probability ratio of extreme fire weather under different climate scenarios. Climate change has increased the likelihood of such events by at least 30% since pre-industrial times, and the risk could quadruple in a 2°C warmer world (simplified from van Oldenborgh et al., 2021).\n\n\n\n\n\n\nExtreme Heat Is the Main Driver\nThe increase in risk is strongly linked to record-breaking heatwaves rather than rainfall deficits. Figure 1 shows how the probability of extreme high-temperature events has doubled since 1900."
-  },
-  {
     "objectID": "posts/bushfire-analysis/bushfire.html",
     "href": "posts/bushfire-analysis/bushfire.html",
     "title": "How Climate Change Fueled Australia’s Black Summer",
     "section": "",
-    "text": "In the summer of 2019–2020, Australia faced one of the most devastating bushfires in history — the “Black Summer”. Over 30 lives were lost, thousands of homes were destroyed, and an estimated 1.5 billion animals perished.\nBut was this catastrophic event just bad luck — or a symptom of a warming planet? In this post, we dig into data from a 2021 to uncover how human-driven extreme weather is fueling Australia’s bushfire crisis and what it means for our future."
+    "text": "In the summer of 2019–2020, Australia faced one of the most devastating bushfires in history — the “Black Summer”. Over 30 lives were lost, thousands of homes were destroyed, and an estimated 1.5 billion animals perished.\nBut was this catastrophic event just bad luck, or a symptom of a warming planet?\nIn this post, we dig into data from a 2021 study to uncover how human-driven extreme weather is fueling Australia’s bushfire crisis and what it means for our future."
   },
   {
     "objectID": "posts/bushfire-analysis/bushfire.html#a-nation-on-fire",
     "href": "posts/bushfire-analysis/bushfire.html#a-nation-on-fire",
     "title": "How Climate Change Fueled Australia’s Black Summer",
     "section": "",
-    "text": "In the summer of 2019–2020, Australia faced one of the most devastating bushfires in history — the “Black Summer”. Over 30 lives were lost, thousands of homes were destroyed, and an estimated 1.5 billion animals perished.\nBut was this catastrophic event just bad luck — or a symptom of a warming planet? In this post, we dig into data from a 2021 to uncover how human-driven extreme weather is fueling Australia’s bushfire crisis and what it means for our future."
+    "text": "In the summer of 2019–2020, Australia faced one of the most devastating bushfires in history — the “Black Summer”. Over 30 lives were lost, thousands of homes were destroyed, and an estimated 1.5 billion animals perished.\nBut was this catastrophic event just bad luck, or a symptom of a warming planet?\nIn this post, we dig into data from a 2021 study to uncover how human-driven extreme weather is fueling Australia’s bushfire crisis and what it means for our future."
   },
   {
     "objectID": "posts/bushfire-analysis/bushfire.html#the-data-behind-the-flames",
     "href": "posts/bushfire-analysis/bushfire.html#the-data-behind-the-flames",
     "title": "How Climate Change Fueled Australia’s Black Summer",
     "section": "The Data Behind the Flames",
-    "text": "The Data Behind the Flames\nThe study by van Oldenborgh et al. (2021) , published in Natural Hazards and Earth System Sciences. It uses long-term climate observations dating back to 1900, modern atmospheric data (ERA5), and 11 global climate models to measure how climate change has increased the risk of extreme bushfires in southeastern Australia.\nThey used two main indicators of bushfire danger:\n\n\n\nTable 1\n\n\n\n\n\n\n\n\n\n\nMetric\nDescription\nData Source\n\n\n\n\nFire Weather Index (FWI)\nCombines temperature, humidity, wind, and rainfall to estimate fire danger.\nERA5 reanalysis (1979–2020)\n\n\nMonthly Severity Rating (MSR)\nMeasures how long and severe a fire event lasts.\nAustralian Bureau of Meteorology\n\n\n\n\n\n\nTable 1 shows key fire risk metrics used in the study.\nUsing these metrics, the authors estimated how the probability of extreme fire weather has changed in a warming world. Their models compared the actual climate to a hypothetical world without human-caused emissions."
+    "text": "The Data Behind the Flames\nTo pinpoint the link between climate change and the fires, scientists from a landmark 2021 study by van Oldenborgh et al. dug into the data. Their approach was like a forensic investigation, combining over a century of real-world climate records with 11 powerful global climate models.\nThis allowed them to do something remarkable: compare our actual climate to a simulated hypothetical world without human-caused emissions. The difference between the two reveals the true fingerprint of climate change.\n\nMeasuring “Fire Danger”\nBut how do you turn bushfire risk into numbers? The researchers focused on two internationally recognized metrics:\n\n\n\nTable 1\n\n\n\n\n\n\n\n\n\n\nMetric\nDescription\nData Source\n\n\n\n\nFire Weather Index (FWI)\nA daily snapshot combining temperature, humidity, wind, and rain to estimate fire danger.\nERA5 reanalysis (1979–2020)\n\n\nMonthly Severity Rating (MSR)\nMeasures the long-term severity and duration of a fire season.\nAustralian Bureau of Meteorology\n\n\n\n\n\n\nTable 1: Key indicators used to quantify bushfire risk in the study.\nHere’s what makes these metrics powerful: The FWI captures the daily danger (think: “How likely is a fire to ignite and spread today?”), while the MSR tracks the season’s overall threat (think: “How long and intense will this fire season be?”)."
   },
   {
-    "objectID": "posts/bushfire-analysis/bushfire.html#what-they-found",
-    "href": "posts/bushfire-analysis/bushfire.html#what-they-found",
+    "objectID": "posts/bushfire-analysis/bushfire.html#the-smoking-gun",
+    "href": "posts/bushfire-analysis/bushfire.html#the-smoking-gun",
     "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "What They Found",
-    "text": "What They Found\n\nFire Weather Is 30% More Likely\nThe study found that climate change has made extreme fire weather events at least 30% more frequent. For a 2 °C warmer world, that frequency could rise 4 – 8 times higher.\n\n\n\n\n\n\n\n\n\nFigure 1: Probability ratio of extreme fire weather under different climate scenarios. Climate change has increased the likelihood of such events by at least 30% since pre-industrial times, and the risk could quadruple in a 2°C warmer world (simplified from van Oldenborgh et al., 2021).\n\n\n\n\n\n\nExtreme Heat Is the Main Driver\nThe increase in risk is strongly linked to record-breaking heatwaves rather than rainfall deficits. Figure 1 shows how the probability of extreme high-temperature events has doubled since 1900."
+    "section": "The Smoking Gun",
+    "text": "The Smoking Gun\n\nFinding #1: Fire Weather Is 30% More Likely\n\nThe study’s first revelation: extreme fire weather events are now at least 30% more frequent than they were before we started pumping greenhouse gases into the atmosphere.\nBut here’s where it gets truly alarming. Look at Figure 1 below:\n\n\n\n\n\n\n\n\nFigure 1: Probability ratio of extreme fire weather under different climate scenarios. Climate change has increased the likelihood of such events by at least 30% since pre-industrial times, and the risk could quadruple in a 2°C warmer world (simplified from van Oldenborgh et al., 2021).\n\n\n\n\n\nIf global temperatures climb to 2°C above pre-industrial levels, which we’re on track to hit within decades, these once-rare fire weather events could at least 4 times more common, with some estimates going as high as 8 times. A once-in-decade disaster could happen every couple of years.\n\n\nFinding #2: Extreme Heat Is the Main Driver\n\nHere’s a surprise: the bigger problem isn’t less rain — it’s record-breaking heat. Extreme hot days have doubled since 1900. Why does this matter? Because extreme heat turns bushland into dry kindling. The hotter it gets, the faster everything dries out and catches fire.\nSo, was Black Summer just bad luck? No. The data shows a clear link: our emissions → hotter temperatures → more fires. We’ve changed the odds, and now we’re seeing the results."
   },
   {
-    "objectID": "posts/bushfire-analysis/bushfire.html#building-a-fire-resilient-future",
-    "href": "posts/bushfire-analysis/bushfire.html#building-a-fire-resilient-future",
+    "objectID": "posts/bushfire-analysis/bushfire.html#what-this-means-for-australias-future",
+    "href": "posts/bushfire-analysis/bushfire.html#what-this-means-for-australias-future",
     "title": "How Climate Change Fueled Australia’s Black Summer",
-    "section": "Building a Fire-Resilient Future",
-    "text": "Building a Fire-Resilient Future\nThe numbers tell a clear story: the “Black Summer” bushfires are a sign of a new, climate-driven reality. Figure Figure 1 shows that extreme fire weather is at least 30% more likely, and heatwaves are twice as common, because of climate change. If global warming reaches 2°C, these fires could become 4 to 8 times more frequent. As van Oldenborgh et al. (2021) warn, we’re likely underestimating the risks. To stay safe, Australia needs stronger firefighting resources, smarter urban planning, and bold climate policies. You can help by supporting local fire prevention efforts or advocating for climate action in your community."
+    "section": "What This Means for Australia’s Future",
+    "text": "What This Means for Australia’s Future\nThe 2019-2020 fires were extreme, but they happened in a world that’s already 1°C warmer. As Figure 1 shows, things are getting worse. What felt like a disaster in 2020 could become normal by 2050.\nThe researchers warn we might be underestimating the risks. Real-world fires are already worse than what the models predicted.\n\nExtreme fire weather is 30% more likely today because of climate change\nExtreme heat days have doubled since 1900\nUnder 2°C warming, these fire seasons could happen 4-8 times more often\n\nAustralia needs better fire planning, smarter building rules, and serious climate action. Black Summer was a warning. The question is: will we listen?"
   },
   {
     "objectID": "posts/bushfire-analysis/bushfire.html#references",
@@ -117,5 +40,19 @@
     "title": "How Climate Change Fueled Australia’s Black Summer",
     "section": "References",
     "text": "References\nvan Oldenborgh, G. J., Krikken, F., Lewis, S., et al. (2021). Attribution of the Australian bushfire risk to anthropogenic climate change. Natural Hazards and Earth System Sciences, 21, 941–962. https://doi.org/10.5194/nhess-21-941-2021"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Heng-Hsieh Chang",
+    "section": "",
+    "text": "Marketing professional with 6+ years driving market expansion and revenue growth. Currently advancing my analytical capabilities as a Master of Business Analytics student at Monash University, I bridge creative strategy with data-driven insights.\nI specialize in transforming complex data into actionable strategies that integrate analytics, SEO/SEM, and storytelling to maximize ROI and strengthen client relationships.\n\n\n💼 Professional Experience\nBrand Manager | flyingV Crowdfunding Platform\n2021 - 2024\nDigital Marketer | Taiwan Rakuten Ichiba\n2019 - 2021\n\n\n\n🌱 Beyond Work\nI enjoy exploring new cuisines, singing, and playing badminton. I believe creativity thrives where curiosity meets connection — both in data and in life."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my Data Journey",
+    "section": "",
+    "text": "How Climate Change Fueled Australia’s Black Summer\n\n\n\nData Analysis\n\nClimate Change\n\n\n\n\n\n\n\n\n\nSep 28, 2025\n\n\nHengHsieh Chang\n\n\n\n\n\nNo matching items"
   }
 ]
