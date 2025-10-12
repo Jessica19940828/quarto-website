@@ -1,4 +1,261 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+
+/* === 全站基礎設定 === */
+body {
+  font-family: 'Poppins', 'Noto Sans TC', sans-serif;
+  line-height: 1.7;
+  color: #2f2f2f;
+  background-color: #f5f6f4;
+  margin: 0;
+  padding: 0;
 }
+
+body.quarto-dark {
+  background-color: #3a403d !important;
+  color: #d9d9d9 !important;
+}
+
+body.quarto-light {
+  background-color: #f5f6f4 !important;
+  color: #2f2f2f !important;
+}
+
+/* === 導覽列（navbar） === */
+.navbar, .navbar-dark {
+  background-color: #5e6d5a; /* 莫蘭迪綠灰主色 */
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.navbar a, .navbar-dark .navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar a:hover, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #e8ede8 !important;
+}
+
+/* === 標題設定 === */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+body.quarto-dark h1,
+body.quarto-dark h2,
+body.quarto-dark h3,
+body.quarto-dark h4,
+body.quarto-dark h5 {
+  color: #b8c3b2;
+}
+
+body.quarto-light h1,
+body.quarto-light h2,
+body.quarto-light h3,
+body.quarto-light h4,
+body.quarto-light h5 {
+  color: #5e6d5a;
+}
+
+/* === 超連結 === */
+a {
+  color: #3c5e4a;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #2c4437;
+  text-decoration: underline;
+}
+
+body.quarto-dark a {
+  color: #9ab5a2;
+}
+
+body.quarto-dark a:hover {
+  color: #b8c3b2;
+}
+
+/* === 按鈕 === */
+.btn, .btn-primary {
+  background-color: #7b9e87;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover, .btn-primary:hover {
+  background-color: #688c75;
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn, .btn-primary {
+    background-color: #6a8876;
+  }
+  .btn:hover, .btn-primary:hover {
+    background-color: #597c67;
+  }
+}
+
+/* === 卡片、區塊陰影 === */
+.card, .quarto-figure, .about-section {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* === About 頁面 === */
+body#about-page {
+  background-color: #f7f8f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  body#about-page {
+    background-color: #3a403d;
+  }
+}
+
+body#about-page h1.quarto-title {
+  text-align: left;
+  color: #5e6d5a;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+}
+
+body#about-page p {
+  text-align: left;
+  color: #2f2f2f;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  body#about-page p {
+    color: #ffffff;
+  }
+}
+
+/* === 分隔線 === */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #d4d9d2;
+  margin: 2em 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  hr {
+    background-color: #5a605d;
+  }
+}
+
+/* === 小標與區塊標題 === */
+body#about-page h2, body#about-page h3 {
+  color: #6b7d6a;
+  border-left: 4px solid #a8b5a0;
+  padding-left: 0.6em;
+}
+
+@media (prefers-color-scheme: dark) {
+  body#about-page h2, body#about-page h3 {
+    color: #b8c3b2;
+    border-left: 4px solid #9ab5a2;
+  }
+}
+
+/* === 列表 === */
+ul, ol {
+  margin-left: 1.2em;
+  text-align: left;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+  padding: 1.5rem 0;
+  background-color: #e8ede8;
+}
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    background-color: #454c49;
+    color: #b0b0b0;
+  }
+}
+
+/* === Jolla 模板調整 === */
+.quarto-about-jolla .about-entity,
+.quarto-about-jolla .about-text,
+.quarto-about-jolla .about-links {
+  text-align: left !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+.quarto-about-jolla .about-entity h1,
+.quarto-about-jolla .about-entity .quarto-title {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+.quarto-about-jolla .about-entity {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  gap: 1.5rem;
+}
+
+/* === Banner（透明底版本）=== */
+.quarto-title-block .quarto-title-banner {
+  background: none !important;  /* 移除背景底色 */
+  color: #2f2f2f !important;
+  padding: 2rem 0 1rem 0;
+  border-bottom: 1px solid #e2e5e0;
+}
+
+.quarto-title-block .quarto-title-banner h1 {
+  color: #5e6d5a !important;
+  font-family: 'Playfair Display', 'Poppins', 'Noto Sans TC', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+
+/* 子標籤（例如 DATA ANALYSIS） */
+.quarto-title-block .quarto-title-banner .quarto-title-meta {
+  color: #7b9e87 !important;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 作者 / 日期 meta 區 */
+.quarto-title-meta-author,
+.quarto-title-meta-date {
+  color: #666 !important;
+  font-size: 0.95rem;
+}
+
+/* === Dark Mode Banner 文字顏色修正 === */
+body.quarto-dark .quarto-title-block .quarto-title-banner h1,
+body.quarto-dark .quarto-title-block .quarto-title-banner .quarto-title-meta {
+  color: #ffffff !important; /* 在深色模式下將標題和子標籤改為白色 */
+}
+
+body.quarto-dark .quarto-title-block .quarto-title-banner {
+  border-bottom: 1px solid #5a605d; /* 深色模式下分隔線顏色加深 */
+}
+

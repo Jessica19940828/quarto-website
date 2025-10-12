@@ -1,0 +1,107 @@
+---
+title: "How Climate Change Fueled Australia’s Black Summer"
+author: "HengHsieh Chang"
+date: "2025-09-28"
+categories: [Data Analysis, Climate Change]
+image: "fire_header.jpg"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    css: style.css
+    code-fold: true
+---
+
+## A Nation on Fire
+
+In the summer of 2019–2020, Australia faced one of the most devastating bushfires in history — the *“Black Summer”*. Over 30 lives were lost, **thousands of homes were destroyed**, and an estimated **1.5 billion animals** perished.
+
+But was this catastrophic event just bad luck — or a symptom of a warming planet? In this post, we dig into data from a 2021 to uncover how human-driven extreme weather is fueling Australia’s bushfire crisis and what it means for our future.
+
+---
+
+## The Data Behind the Flames
+
+The study by [van Oldenborgh et al. (2021)](https://doi.org/10.5194/nhess-21-941-2021) , published in *Natural Hazards and Earth System Sciences*. It uses **long-term climate observations** dating back to 1900, modern atmospheric data (ERA5), and **11 global climate models** to measure how climate change has increased the risk of extreme bushfires in southeastern Australia.
+
+They used two main indicators of bushfire danger:
+
+::: {#tbl-fire-metrics}
+| Metric | Description | Data Source |
+|:-----------------------|:-----------------------|:-----------------------|
+| **Fire Weather Index (FWI)** | Combines temperature, humidity, wind, and rainfall to estimate fire danger. | ERA5 reanalysis (1979–2020) |
+| **Monthly Severity Rating (MSR)** | Measures how long and severe a fire event lasts. | Australian Bureau of Meteorology |
+:::
+
+@tbl-fire-metrics *shows key fire risk metrics used in the study.*
+
+Using these metrics, the authors estimated how the **probability of extreme fire weather** has changed in a warming world. Their models compared the *actual climate* to a *hypothetical world without human-caused emissions*.
+
+---
+
+## What They Found
+
+1.  **Fire Weather Is 30% More Likely**\
+    The study found that climate change has made extreme fire weather events at least **30% more frequent**. For a 2 °C warmer world, that frequency could rise **4 – 8 times higher**.
+
+```{r}
+#| label: fig-fire-risk
+#| fig-cap: "Probability ratio of extreme fire weather under different climate scenarios. Climate change has increased the likelihood of such events by at least 30% since pre-industrial times, and the risk could quadruple in a 2°C warmer world (simplified from van Oldenborgh et al., 2021)."
+#| echo: false
+#| warning: false
+#| message: false
+#| code-fold: true
+
+library(ggplot2)
+library(dplyr)
+
+# Hypothetical data for Fire Weather Index probability ratio
+# (simplified from van Oldenborgh et al., 2021)
+fire_risk_data <- data.frame(
+  Scenario = c("Pre-Industrial", "2019–2020", "2°C Warming"),
+  Probability_Ratio = c(1.0, 1.3, 4.0)  # 30% increase and 4x future risk
+)
+
+# Generate Figure 1: Fire Weather Probability Ratio
+p <- ggplot(fire_risk_data, aes(x = Scenario, y = Probability_Ratio, fill = Scenario)) +
+  geom_bar(stat = "identity", width = 0.6, color = NA, show.legend = FALSE) +
+  geom_text(aes(label = Probability_Ratio),
+            vjust = -0.5, color = "#2f2f2f", size = 4) +
+  scale_fill_manual(values = c(
+    "Pre-Industrial" = "#e0c3a3",   # soft beige
+    "2019–2020" = "#e07a5f",       # warm orange-red
+    "2°C Warming" = "#9d0208"      # deep fire red
+  )) +
+  theme_minimal(base_family = "Noto Sans TC") +
+  theme(
+    plot.background = element_rect(fill = "#faf9f6", color = NA),
+    text = element_text(color = "#2f2f2f"),
+    axis.title = element_text(size = 12, face = "bold"),
+    axis.text = element_text(size = 11),
+    plot.title = element_text(size = 14, face = "bold", hjust = 0.5, margin = margin(b = 10)),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.position = "none"
+  ) +
+  labs(
+    title = "Probability Ratio of Extreme Fire Weather",
+    x = "Scenario",
+    y = "Probability Ratio (relative to Pre-Industrial)"
+  )
+
+p
+
+```
+
+2.  **Extreme Heat Is the Main Driver**\
+    The increase in risk is strongly linked to **record-breaking heatwaves** rather than rainfall deficits. Figure 1 shows how the probability of extreme high-temperature events has doubled since 1900.
+    
+    
+
+## Building a Fire-Resilient Future
+
+The numbers tell a clear story: the "Black Summer" bushfires are a sign of a new, climate-driven reality. Figure @fig-fire-risk shows that extreme fire weather is at least 30% more likely, and heatwaves are twice as common, because of climate change. If global warming reaches 2°C, these fires could become 4 to 8 times more frequent. As van Oldenborgh et al. (2021) warn, we’re likely underestimating the risks. To stay safe, Australia needs stronger firefighting resources, smarter urban planning, and bold climate policies. You can help by supporting local fire prevention efforts or advocating for climate action in your community.
+
+## References
+
+van Oldenborgh, G. J., Krikken, F., Lewis, S., et al. (2021). Attribution of the Australian bushfire risk to anthropogenic climate change. *Natural Hazards and Earth System Sciences*, 21, 941–962. <https://doi.org/10.5194/nhess-21-941-2021>

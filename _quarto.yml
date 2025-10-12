@@ -2,19 +2,29 @@ project:
   type: website
 
 website:
-  title: "Jessica Chang's Blog"
+  title: "Heng-Hsieh Chang's Analytics Journey"
+
   navbar:
+    background: "#5e6d5a"
     right:
       - text: "About"
         href: about.qmd
+      - text: "Blog"
+        href: index.qmd
       - icon: github
         href:  https://github.com/Jessica19940828
+      - icon: linkedin
+        href: https://www.linkedin.com/in/heng-hsieh-chang-849957233/
 format:
   html:
     theme:
       light: sandstone
       dark: cyborg
     css: styles.css
+    toc: false
+    page-layout: full
+
+
 
 
 

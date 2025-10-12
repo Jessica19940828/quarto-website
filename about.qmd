@@ -1,6 +1,10 @@
 ---
-title: "HengHsieh Chang"
-image: profile.jpg
+title: "Heng-Hsieh Chang"
+body-id: about-page
+format:
+  html:
+    css: style.css
+image: aboutme.jpg
 about:
   template: jolla
   links:
@@ -9,36 +13,29 @@ about:
       href: https://github.com/Jessica19940828
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/jessicachang
+      href: https://www.linkedin.com/in/heng-hsieh-chang-849957233/
     - icon: envelope
-      text: Email
-      href: mailto:jessica830828@gmail.com
+      text: Contact Me
+      href: mailto:hcha0190@student.monash.edu
 
 ---
 
-Hi, I'm HengHsieh Chang 👋  
-A marketing professional with over six years of experience driving market expansion and revenue growth. Currently, I am expanding my analytical capabilities as a **Master of Business Analytics student at Monash University**.
+Marketing professional with 6+ years driving market expansion and revenue growth. Currently advancing my analytical capabilities as a **Master of Business Analytics student at Monash University**, I bridge creative strategy with data-driven insights.
 
-Previously, as a Brand Manager at Taiwan's largest crowdfunding platform, I led a team to achieve industry-leading sales records and a 300% increase in annual revenue growth for our clients[cite: 19]. My expertise lies in developing bespoke marketing plans that leverage data analytics, SEO/SEM, and compelling copywriting to maximize ROI and foster long-term client loyalty.
-
-I am passionate about using data to uncover insights and tell powerful stories. I am proficient in both Mandarin (Native) and English (Fluent). I am eager to apply my unique blend of marketing strategy and advanced analytics to solve complex business challenges.
+I specialize in transforming complex data into actionable strategies that integrate analytics, SEO/SEM, and storytelling to maximize ROI and strengthen client relationships.
 
 
-## Education
-Monash University | Melbourne, Australia  
-Master's in Business Analytics | 2024 - Present  
+---
 
-Taipei Medical University | Taipei, Taiwan  
-Bachelor of Science | 2012 - 2016  
+### 💼 Professional Experience
 
-National Taipei University | Taipei, Taiwan  
-Certificate in Law | 2013 - 2017  
+**Brand Manager** | flyingV Crowdfunding Platform  
+*2021 - 2024*
 
-## Experience
-Ontoo Company Limited by Shares | Brand Manager | 2021 - 2025  
-EMAG Technology Co., Ltd. | Digital Marketer | 2019 - 2021  
-Taiwan Rakuten Ichiba | Social Media Specialist | 2016 - 2018
+**Digital Marketer** | Taiwan Rakuten Ichiba  
+*2019 - 2021*
 
+--- 
 
-
-
+### 🌱 Beyond Work
+I enjoy exploring new cuisines, singing, and playing badminton. I believe creativity thrives where curiosity meets connection — both in data and in life.
