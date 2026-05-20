@@ -3,10 +3,10 @@
 
 This repository contains my individual assessment for ETC5523, where I built a personal data analysis website using Quarto.
 
-## 🌐 Live Website
+## Live Website
 👉 https://etc5523-2025.github.io/assignment-3-creating-a-blog-Jessica19940828
 
-## 🧠 Project Overview
+## Website Overview
 It will be updated with new posts exploring different datasets and analytical techniques.
 
 Each post typically includes:
@@ -16,5 +16,5 @@ Each post typically includes:
 - Visualisations and interpretation of results
 - Conclusions supported by evidence
 
-## 📌 Author
+## Author
 **HengHsieh Chang**
