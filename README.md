@@ -17,4 +17,4 @@ Each post typically includes:
 - Conclusions supported by evidence
 
 ## Author
-**HengHsieh Chang**
+**Heng-Hsieh Chang**
